@@ -167,4 +167,4 @@ async def demotion(font_bytes, bytes_image, text, type):
 	output = await joiner(text, main)
 	return output
 
-font_bytes = requests.get("https://raw.githubusercontent.com/vuchaev2015/ftg-modules/fonts/times.ttf").content
+font_bytes = requests.get("https://raw.githubusercontent.com/vuchaev2015/ftg-modules/main/fonts/times.ttf").content
