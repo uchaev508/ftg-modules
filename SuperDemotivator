@@ -4,6 +4,7 @@ from PIL import Image, ImageDraw, ImageOps, ImageFont
 from textwrap import wrap
 import io
 import requests
+
 logger = logging.getLogger(__name__)
 
 @loader.tds
@@ -168,3 +169,4 @@ async def demotion(font_bytes, bytes_image, text, type):
 	return output
 
 font_bytes = requests.get("https://raw.githubusercontent.com/vuchaev2015/ftg-modules/main/fonts/times.ttf").content
+#######################
